@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
             val Id=adminId.text.toString()
             val Pw=adminPw.text.toString()
             if (Id=="admin@test.com"&& Pw=="qwer"){
-                Toast.makeText(this, "관리자입니다", Toast.LENGTH_SHORT).show()
+                var name="오경주"
+                Toast.makeText(this, "${name} 관리자입니다", Toast.LENGTH_SHORT).show()
             }
             else{
                 Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
